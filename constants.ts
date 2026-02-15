@@ -3,7 +3,8 @@ import { ModelMap, Translations } from './types';
 export const MODELS: ModelMap = {
   mariana : "https://t.me/marianasapequinha_bot",
   tifanny : "https://t.me/tifannyacesso_bot",
-  pamela : "https://t.me/pamelaacesso_bot"
+  pamela : "https://t.me/pamelaacesso_bot",
+  leticia : "https://t.me/leticiaacesso_bot"
 };
 
 export const ADMIN_ROUTE = "/paineladmin";
