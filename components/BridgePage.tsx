@@ -66,46 +66,6 @@ const BridgePage: React.FC<BridgePageProps> = ({ modelId }) => {
 
   return (
     <div className="min-h-screen flex justify-center bg-bg text-white p-5 relative overflow-hidden">
-      
-      {/* LANGUAGE MODAL / POP-UP */}
-      {showLangModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-sm p-4 animate-in fade-in duration-300">
-          <div className="bg-card border border-borda-card p-6 rounded-2xl w-full max-w-sm shadow-2xl">
-            <h2 className="text-center text-lg font-bold text-white mb-2 uppercase tracking-wider">
-              Select Language
-            </h2>
-            <p className="text-center text-gray-400 text-sm mb-6">
-              Selecione seu idioma para continuar
-            </p>
-            
-            <div className="space-y-3">
-              <button 
-                onClick={() => handleLanguageSelect('pt')}
-                className="w-full flex items-center p-4 bg-[#262626] hover:bg-roxo/20 border border-[#333] hover:border-roxo rounded-xl transition-all duration-200 group"
-              >
-                <span className="text-2xl mr-4">🇧🇷</span>
-                <span className="font-bold text-white group-hover:text-roxo transition-colors">Português</span>
-              </button>
-
-              <button 
-                onClick={() => handleLanguageSelect('es')}
-                className="w-full flex items-center p-4 bg-[#262626] hover:bg-roxo/20 border border-[#333] hover:border-roxo rounded-xl transition-all duration-200 group"
-              >
-                <span className="text-2xl mr-4">🇪🇸</span>
-                <span className="font-bold text-white group-hover:text-roxo transition-colors">Español</span>
-              </button>
-
-              <button 
-                onClick={() => handleLanguageSelect('en')}
-                className="w-full flex items-center p-4 bg-[#262626] hover:bg-roxo/20 border border-[#333] hover:border-roxo rounded-xl transition-all duration-200 group"
-              >
-                <span className="text-2xl mr-4">🇺🇸</span>
-                <span className="font-bold text-white group-hover:text-roxo transition-colors">English</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
 
       <div className="w-full max-w-[420px] flex flex-col items-center pt-5">
         
