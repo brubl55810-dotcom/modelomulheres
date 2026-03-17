@@ -13,7 +13,6 @@ const BridgePage: React.FC<BridgePageProps> = ({ modelId }) => {
   const [lang, setLang] = useState<LangCode>('pt');
   const [isAllowed, setIsAllowed] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [showLangModal, setShowLangModal] = useState(true);
   
   // UseRef para evitar contagem dupla em StrictMode/Dev
   const hasTrackedView = useRef(false);
