@@ -2,7 +2,7 @@ import { ModelMap, Translations } from './types';
 
 export const MODELS: ModelMap = {
   mariana : "https://t.me/marianasapequinha_bot",
-  tifanny : "https://t.me/tifannyacesso_bot",
+  tifanny : "https://paylume.fans/l/eutifanny",
   pamela : "https://t.me/pamelaacesso_bot",
   leticia : "https://t.me/leticiaacesso_bot"
 };
